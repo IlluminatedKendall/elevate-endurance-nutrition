@@ -157,7 +157,9 @@ main.has-hero { padding-top: 0; }
 
 /* ---------- Home: services band ---------- */
 .band-green { background: var(--green); color: #fff; }
-.service { display: inline-block; text-align: center; }
+.service { display: inline-block; text-align: center; color: #fff; text-decoration: none; }
+.service:hover h2, .service:focus-visible h2 { text-decoration: underline; text-underline-offset: 8px; text-decoration-thickness: 2px; }
+.service:focus-visible { outline: 2px solid #fff; outline-offset: 8px; }
 .service h2 {
   margin: 0 0 24px;
   font: 400 32px/40px var(--sans);
@@ -194,7 +196,8 @@ main.has-hero { padding-top: 0; }
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 .page-title.slate { color: var(--slate); }
-.page-title.flush { margin-bottom: 40px; }
+.page-title.has-sub { margin-bottom: 12px; }
+.subtitle.name-line { margin-bottom: 40px; color: var(--body); font-size: 14px; letter-spacing: 1.75px; }
 .subtitle {
   margin: 0;
   text-align: center;
@@ -264,6 +267,12 @@ main.has-hero { padding-top: 0; }
   font: 400 14px/21px var(--sans);
   color: var(--footer-ink);
 }
+
+.site-footer .footer-name { margin-bottom: 6px; letter-spacing: 1px; }
+
+/* ---------- Not found ---------- */
+.not-found { text-align: center; padding: 120px 24px; }
+.not-found p { margin: 0 0 32px; }
 
 /* ---------- Tablet ---------- */
 @media (max-width: 1024px) {
