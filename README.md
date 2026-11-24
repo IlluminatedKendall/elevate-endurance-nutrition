@@ -12,7 +12,7 @@ Hand-built static site (plain HTML + CSS, no build step), migrated from GoDaddy 
 | `/nutrition` | `nutrition.html` |
 | `/running-coaching` | `running-coaching.html` |
 
-Shared styles live in `styles.css`; photos in `images/`; the Endurance Nutrition Guide PDF in `assets/`.
+Shared styles live in `styles.css`; photos in `images/`.
 
 ## Brand
 - Colors: slate `#2f4f4f`, deep slate `#274343`, green `#4e9661`, ink `#1b1b1b`, body text `#5e5e5e`
